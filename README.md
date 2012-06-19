@@ -37,6 +37,16 @@ Mount the BT shield on the MegaADK, closest to the power/usb/serial connections.
 
 + You may have to run the [bluetooth initialization sketch](http://arduino.cc/it/Main/ArduinoBTInitializationSketch).
 
+##In Action
+
+Using the available materials, we rigged our setup to flip the light switch. You can see a demo [here](http://youtu.be/mLJeMa952po).
+
+###Use Case:  
++ Power on Arduino
++ Pair Android and ITEAD shield
++ Open Bluetooth Viewer on Android
++ Connect Android and shield by selecting 'itead' in BT Viewer 
++ Send L or D character from Android, flipping the lights (light/dark)
 
 ##Resources:
 
