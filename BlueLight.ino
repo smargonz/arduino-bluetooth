@@ -1,10 +1,17 @@
+//=============================//
+//   BLUELIGHT v1              //
+//     Arduino+Android+BT      //
+//                             //
+//     Authors:                //
+//       dpeter (GH: sarenji)  //
+//       smargonz              //
+//=============================//
+
 #include <Servo.h> 
 
 #define LED 3
 #define servoPin 4
-#define SERVO_DELAY 2000
-int sweep = 180; //degrees total
-int stepsize = 1; //degree per step
+#define SERVO_DELAY 1500
 
 Servo myservo;
 
@@ -44,9 +51,8 @@ void loop()
         break;
       
       default:
-        Serial.print( "..." );
+        //Serial.print( "..." );
         break;
     }
   }
-
 }
