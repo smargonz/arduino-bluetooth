@@ -17,7 +17,7 @@
 
 ##Circuit Description
 
-![arduino photo should be here](./ArduinoBTCircuit.png)
+Click [here](https://github.com/smargonz/arduino-bluetooth/blob/master/ArduinoBTCircuit.png?raw=true) for photo.
 
 Mount the BT shield on the MegaADK, closest to the power/usb/serial connections. Connect an LED (longer side) to digital pin 3 and wire the short side to ground. Connect pin 4 to the control wire of the servo (a white wire, in our case.) The servo's red and black wires are connected to 5V and ground, respectively. 
 
